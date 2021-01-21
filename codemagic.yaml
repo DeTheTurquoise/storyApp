@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "ios/Runner"
+                XCODE_WORKSPACE: "ios"
                 XCODE_SCHEME: "Flutter"
             xcode: latest
             cocoapods: default
