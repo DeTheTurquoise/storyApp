@@ -7,7 +7,7 @@ workflows:
         environment:
             vars:
                 XCODE_WORKSPACE: "ios/Runner"
-                XCODE_SCHEME: "ios/Runner"
+                XCODE_SCHEME: "Runner"
             xcode: latest
             cocoapods: default
         scripts:
